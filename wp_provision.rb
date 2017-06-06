@@ -19,8 +19,8 @@ Version = 0.2
       options = {
           domain: 'testing.localhost',
           dest_dir: '/tmp/',
-          email: 'root@kiosk.tm',
-          admin_user: 'superadmin'
+          email: 'root',
+          admin_user: 'superadminuser'
       }
 
       opts = OptionParser.new do |opts|
